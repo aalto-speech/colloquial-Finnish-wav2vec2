@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=ft_L_scratch  # Job name
-#SBATCH --output=/fairseq_train_multinode_w2v2_L_scratch_128gpus_5e-5.o # Name of stdout output file
-#SBATCH --error=/fairseq_train_multinode_w2v2_L_scratch_128gpus_5e-5.e  # Name of stderr error file
+#SBATCH --output=/fairseq_train_multinode_w2v2_L_scratch_128gpus_3e-4.o # Name of stdout output file
+#SBATCH --error=/fairseq_train_multinode_w2v2_L_scratch_128gpus_3e-4.e  # Name of stderr error file
 #SBATCH --partition=dev-g  # Partition (queue) name
 #SBATCH --nodes=16            # Total number of nodes 
 #SBATCH --ntasks-per-node=8     #
