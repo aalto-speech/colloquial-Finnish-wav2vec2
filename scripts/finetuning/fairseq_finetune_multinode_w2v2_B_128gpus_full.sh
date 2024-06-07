@@ -21,8 +21,7 @@ module load craype-accel-amd-gfx90a
 module load cray-python
 
 module use /pfs/lustrep2/projappl/project_462000125/samantao-public/mymodules
-module load aws-ofi-rccl/rocm-5.2.3.lua # torch init crashes, libtorch_cpu.so: undefined symbol: roctracer_next_record
-
+module load aws-ofi-rccl/rocm-5.2.3.lua
 module list
 
 if [ ! -d /my_python_env ] ; then
