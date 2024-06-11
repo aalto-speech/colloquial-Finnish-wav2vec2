@@ -31,7 +31,8 @@ The models are also available at [Huggingface Hub](https://huggingface.co/collec
 
 The scripts shared in this repository are adapted to the AMD hardware of the [LUMI supercomputer](https://www.lumi-supercomputer.eu/). To train a wav2vec 2.0 Base model, run
 
-```sbatch /scripts/pretraining/fairseq_train_multinode_w2v2_B_512gpus.sh
+```
+sbatch /scripts/pretraining/fairseq_train_multinode_w2v2_B_512gpus.sh
 ```
 
 Note: you can simulate 512 GPUs by using k GPUs and adding command line parameters (before `--config-dir`)
@@ -41,7 +42,8 @@ Note: you can simulate 512 GPUs by using k GPUs and adding command line paramete
 
 To fine-tune a wav2vec 2.0 Base model using Fairseq, run
 
-```sbatch scripts/finetuning/fairseq_finetune_multinode_w2v2_B_128gpus_full.sh
+```
+sbatch scripts/finetuning/fairseq_finetune_multinode_w2v2_B_128gpus_full.sh
 ```
 
 Note: you can simulate 128 GPUs by using k GPUs and adding command line parameters (before `--config-dir`)
@@ -51,7 +53,8 @@ Note: you can simulate 128 GPUs by using k GPUs and adding command line paramete
 
 To fine-tune a wav2vec 2.0 Base model using Huggingface Transformers, run
 
-```sbatch scripts/finetuning/huggingface_finetune_multinode_w2v2_B_8gpus_full.sh
+```
+sbatch scripts/finetuning/huggingface_finetune_multinode_w2v2_B_8gpus_full.sh
 ```
 
 ## Citation
