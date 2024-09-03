@@ -63,7 +63,8 @@ If you use our models or scripts, please cite our article as:
 
 ```bibtex
 @inproceedings{getman24_interspeech,
-  title     = {What happens in continued pre-training? Analysis of self-supervised speech models with continued pre-training for colloquial Finnish ASR},
+  title     = {What happens in continued pre-training? Analysis of self-supervised speech
+ models with continued pre-training for colloquial Finnish ASR},
   author    = {Yaroslav Getman and Tamas Grosz and Mikko Kurimo},
   year      = {2024},
   booktitle = {Interspeech 2024},
