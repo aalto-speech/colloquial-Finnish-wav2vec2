@@ -24,7 +24,7 @@ Model | Labeled Data, h | DEV WER, % | TEST WER, %
 [Wav2Vec 2.0 Large LP (continued PT)](https://huggingface.co/GetmanY1/wav2vec2-large-fi-lp-cont-pt-100h) | 100 | 22.49 | 24.95
 [Wav2Vec 2.0 Large LP (continued PT)](https://zenodo.org/doi/10.5281/zenodo.11574055) | 1500 | 16.24 | 18.04
 
-More details on the models are available in the [paper](TODO).
+More details on the models are available in the [paper](https://www.isca-archive.org/interspeech_2024/getman24_interspeech.html).
 The models are also available at [Huggingface Hub](https://huggingface.co/collections/GetmanY1/colloquial-finnish-wav2vec2-665f0d692c7800b0d999920d)
 
 ## Pre-training the models
