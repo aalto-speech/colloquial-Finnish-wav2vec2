@@ -461,10 +461,9 @@ def main():
         example["duration_in_seconds"] = len(example["audio"]) / example["sampling_rate"]
         return example
 
-    else:
-        train_dataset = train_dataset.map(prepare_example, remove_columns=["file"])
-        val_dataset = val_dataset.map(prepare_example, remove_columns=["file"])
-        test_dataset = test_dataset.map(prepare_example, remove_columns=["file"])
+    train_dataset = train_dataset.map(prepare_example, remove_columns=["file"])
+    val_dataset = val_dataset.map(prepare_example, remove_columns=["file"])
+    test_dataset = test_dataset.map(prepare_example, remove_columns=["file"])
 
     # 1. First, let's load the dataset
     raw_datasets = DatasetDict()
